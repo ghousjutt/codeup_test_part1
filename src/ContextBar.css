@@ -1,0 +1,196 @@
+bxsgrid-alt-icon {
+    height: 24px;
+    width: 24px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+    min-height: 24px;
+  }
+  .label {
+    text-decoration: none;
+    height: 22px;
+    position: relative;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: inherit;
+    display: inline-block;
+    min-width: 61px;
+    white-space: nowrap;
+  }
+  .label-wrapper {
+    flex-direction: column;
+    padding: var(--padding-12xs) 0 0;
+  }
+  .bxsgrid-alt-parent,
+  .grid-view,
+  .label-wrapper {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .bxsgrid-alt-parent {
+    flex-direction: row;
+    gap: var(--gap-xs);
+  }
+  .grid-view {
+    width: 360px;
+    flex-direction: column;
+    padding: var(--padding-13xl) 0 0;
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .start {
+    position: relative;
+    text-transform: uppercase;
+    font-weight: 600;
+    display: inline-block;
+    min-width: 17px;
+  }
+  .dots,
+  .dots1,
+  .dots2 {
+    height: 2px;
+    width: 42px;
+    position: relative;
+    border-top: 2px solid var(--color-black);
+    box-sizing: border-box;
+  }
+  .dots1,
+  .dots2 {
+    border-top: 2px solid var(--color-lightgray-100);
+  }
+  .middle {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-3xs) var(--padding-9xs) var(--padding-5xs)
+      var(--padding-3xs);
+    gap: var(--gap-5xs);
+  }
+  .end {
+    position: relative;
+    text-transform: uppercase;
+    font-weight: 600;
+    display: inline-block;
+    min-width: 17px;
+  }
+  .pagination,
+  .start-parent {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .start-parent {
+    flex-direction: row;
+    gap: var(--gap-8xs);
+  }
+  .pagination {
+    flex-direction: column;
+    padding: var(--padding-15xl) 0 0;
+    font-size: var(--font-size-sm);
+  }
+  .rishopping-cart-fill-icon {
+    height: 24px;
+    width: 24px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .icon {
+    background-color: var(--color-gray-100);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: var(--padding-13xl);
+  }
+  .label1 {
+    align-self: stretch;
+    height: 22px;
+    position: relative;
+    text-transform: uppercase;
+    font-weight: 600;
+    display: inline-block;
+    white-space: nowrap;
+  }
+  .label-container {
+    width: 85px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-11xs-5) 0 0;
+    box-sizing: border-box;
+  }
+  .price {
+    position: relative;
+    font-size: var(--font-size-lg);
+    text-transform: uppercase;
+    display: inline-block;
+    min-width: 36px;
+    white-space: nowrap;
+  }
+  .text {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: var(--gap-xl);
+  }
+  .button-add-to-cart,
+  .context-bar,
+  .text-wrapper {
+    display: flex;
+    align-items: flex-start;
+    box-sizing: border-box;
+  }
+  .text-wrapper {
+    flex: 1;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: var(--padding-12xl-5) 0 0;
+    min-width: 135px;
+  }
+  .button-add-to-cart,
+  .context-bar {
+    flex-direction: row;
+    max-width: 100%;
+  }
+  .button-add-to-cart {
+    width: 360px;
+    background-color: var(--color-black);
+    justify-content: flex-start;
+    padding: 0 var(--padding-13xl) 0 0;
+    gap: var(--gap-13xl);
+    color: var(--color-white);
+  }
+  .context-bar {
+    align-self: stretch;
+    background-color: var(--color-whitesmoke-100);
+    justify-content: space-between;
+    padding: 0 0 0 var(--padding-21xl);
+    gap: var(--gap-xl);
+    text-align: left;
+    font-size: var(--font-size-base);
+    color: var(--color-black);
+    font-family: var(--font-noto-sans);
+  }
+  @media screen and (max-width: 1200px) {
+    .context-bar {
+      flex-wrap: wrap;
+      padding-left: var(--padding-xl);
+      padding-right: var(--padding-xl);
+      padding-bottom: var(--padding-xl);
+      box-sizing: border-box;
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .button-add-to-cart {
+      flex-wrap: wrap;
+      gap: var(--gap-base);
+      padding: var(--padding-xl);
+      box-sizing: border-box;
+    }
+  }
